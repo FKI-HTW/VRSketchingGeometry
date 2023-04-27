@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
-using VRSketchingGeometry.SketchObjectManagement;
-using VRSketchingGeometry.Meshing;
-using VRSketchingGeometry.Commands.Patch;
-using VRSketchingGeometry.Serialization;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.Meshing;
+using CENTIS.UnitySketchingKernel.Commands.Patch;
+using CENTIS.UnitySketchingKernel.Serialization;
 using UnityEngine.SceneManagement;
 using Unity.PerformanceTesting;
 
-namespace VRSketchingGeometryPackage.Tests.Runtime.PerformanceTest
+namespace CENTIS.UnitySketchingKernelPackage.Tests.Runtime.PerformanceTest
 {
     public class PatchPerformanceTest
     {

@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry.SketchObjectManagement;
-using VRSketchingGeometry.Commands;
-using VRSketchingGeometry.Commands.Line;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.Commands;
+using CENTIS.UnitySketchingKernel.Commands.Line;
 
 public class CommandsTest : MonoBehaviour
 {

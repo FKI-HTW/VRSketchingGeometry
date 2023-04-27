@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry.SketchObjectManagement;
-using VRSketchingGeometry.Commands;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.Commands;
 
-namespace VRSketchingGeometry.Commands.Selection
+namespace CENTIS.UnitySketchingKernel.Commands.Selection
 {
     /// <summary>
     /// Delete all objects in the selection. Objects are restored and selection is activated when undone.

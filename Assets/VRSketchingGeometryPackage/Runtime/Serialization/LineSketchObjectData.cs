@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry.SketchObjectManagement;
-using VRSketchingGeometry.Splines;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.Splines;
 
-namespace VRSketchingGeometry.Serialization
+namespace CENTIS.UnitySketchingKernel.Serialization
 {
     /// <summary>
-    /// Contains the serialization data of a <see cref="VRSketchingGeometry.SketchObjectManagement.LineSketchObject"/>.
+    /// Contains the serialization data of a <see cref="CENTIS.UnitySketchingKernel.SketchObjectManagement.LineSketchObject"/>.
     /// </summary>
     /// <remarks>Original author: tterpi</remarks>
     public class LineSketchObjectData : SketchObjectData

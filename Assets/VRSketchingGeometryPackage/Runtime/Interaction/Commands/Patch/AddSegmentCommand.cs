@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
 
-namespace VRSketchingGeometry.Commands.Patch {
+namespace CENTIS.UnitySketchingKernel.Commands.Patch {
     /// <summary>
     /// Add a segment at the end of the patch.
     /// </summary>

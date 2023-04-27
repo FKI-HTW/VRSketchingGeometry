@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry.Serialization;
-using VRSketchingGeometry.Export;
+using CENTIS.UnitySketchingKernel.Serialization;
+using CENTIS.UnitySketchingKernel.Export;
 
-namespace VRSketchingGeometry.SketchObjectManagement
+namespace CENTIS.UnitySketchingKernel.SketchObjectManagement
 {
     /// <summary>
     /// The root of a sketch.

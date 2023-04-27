@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
 
-namespace VRSketchingGeometry.Commands.Patch {
+namespace CENTIS.UnitySketchingKernel.Commands.Patch {
     /// <summary>
     /// Delete the last segment of the patch.
     /// </summary>

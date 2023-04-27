@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
-using VRSketchingGeometry.Serialization;
-using VRSketchingGeometry.SketchObjectManagement;
-using VRSketchingGeometry;
+using CENTIS.UnitySketchingKernel.Serialization;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel;
 using UnityEngine.SceneManagement;
 
-namespace VRSketchingGeometryPackage.Tests.Runtime.UnitTest
+namespace CENTIS.UnitySketchingKernelPackage.Tests.Runtime.UnitTest
 {
     public class MaterialSerializationTest
     {

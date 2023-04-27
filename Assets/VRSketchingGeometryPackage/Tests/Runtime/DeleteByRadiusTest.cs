@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry.SketchObjectManagement;
-using VRSketchingGeometry.Export;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.Export;
 using System.Xml;
 using System.Xml.Serialization;
-using VRSketchingGeometry;
-using VRSketchingGeometry.Meshing;
-using VRSketchingGeometry.Serialization;
+using CENTIS.UnitySketchingKernel;
+using CENTIS.UnitySketchingKernel.Meshing;
+using CENTIS.UnitySketchingKernel.Serialization;
 
 public class DeleteByRadiusTest : MonoBehaviour
 {
@@ -75,7 +75,7 @@ public class DeleteByRadiusTest : MonoBehaviour
     }
 
     private void XMLSerializeTest2() {
-        string path = Serializer.WriteTestXmlFile<VRSketchingGeometry.Serialization.SerializableComponentData>
+        string path = Serializer.WriteTestXmlFile<CENTIS.UnitySketchingKernel.Serialization.SerializableComponentData>
             ((lineSketchObject as ISerializableComponent).GetData());
         Serializer.DeserializeFromXmlFile(out LineSketchObjectData readData, System.IO.Path.Combine(Application.dataPath, "TestSerialization.xml"));
         LineSketchObject deserLine = Instantiate(LineSketchObjectPrefab).GetComponent<LineSketchObject>();

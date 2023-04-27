@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
 
 public class DeleteToolTest : MonoBehaviour
 {

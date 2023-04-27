@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace VRSketchingGeometry.Meshing {
+namespace CENTIS.UnitySketchingKernel.Meshing {
     /// <summary>
     /// Methods for generating UV texture coordinates for Mesh objects.
     /// </summary>

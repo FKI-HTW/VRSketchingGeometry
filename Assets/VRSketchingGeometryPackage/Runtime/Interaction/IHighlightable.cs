@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace VRSketchingGeometry.SketchObjectManagement
+namespace CENTIS.UnitySketchingKernel.SketchObjectManagement
 {
     /// <summary>
     /// Classes that implement this interface provide methods for visually highlighting their geometry.

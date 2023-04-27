@@ -1,19 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry;
-using VRSketchingGeometry.Commands;
-using VRSketchingGeometry.Commands.Line;
-using VRSketchingGeometry.Commands.Ribbon;
-using VRSketchingGeometry.Commands.Patch;
-using VRSketchingGeometry.Commands.Group;
-using VRSketchingGeometry.Commands.Selection;
-using VRSketchingGeometry.SketchObjectManagement;
-using VRSketchingGeometry.Serialization;
-using VRSketchingGeometry.Meshing;
-using VRSketchingGeometry.Export;
+using CENTIS.UnitySketchingKernel;
+using CENTIS.UnitySketchingKernel.Commands;
+using CENTIS.UnitySketchingKernel.Commands.Line;
+using CENTIS.UnitySketchingKernel.Commands.Ribbon;
+using CENTIS.UnitySketchingKernel.Commands.Patch;
+using CENTIS.UnitySketchingKernel.Commands.Group;
+using CENTIS.UnitySketchingKernel.Commands.Selection;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.Serialization;
+using CENTIS.UnitySketchingKernel.Meshing;
+using CENTIS.UnitySketchingKernel.Export;
 
-namespace VRSketchingGeometryPackage.Samples.LegacyExample.Scripts
+namespace CENTIS.UnitySketchingKernelPackage.Samples.LegacyExample.Scripts
 {
     public class VRSketchingExample : MonoBehaviour
     {

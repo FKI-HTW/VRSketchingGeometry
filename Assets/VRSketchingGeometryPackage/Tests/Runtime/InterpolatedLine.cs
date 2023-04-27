@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry.Splines;
+using CENTIS.UnitySketchingKernel.Splines;
 
 public class InterpolatedLine : MonoBehaviour
 {

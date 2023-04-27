@@ -51,10 +51,10 @@ To access `SharedAssets` you have to import it in the Package Manager (see [Impo
 
 ```C#
     using UnityEngine;
-    using VRSketchingGeometry.SketchObjectManagement;
-    using VRSketchingGeometry;
-    using VRSketchingGeometry.Commands;
-    using VRSketchingGeometry.Commands.Line;
+    using CENTIS.UnitySketchingKernel.SketchObjectManagement;
+    using CENTIS.UnitySketchingKernel;
+    using CENTIS.UnitySketchingKernel.Commands;
+    using CENTIS.UnitySketchingKernel.Commands.Line;
 
     public class CreateLineSketchObject : MonoBehaviour
     {
@@ -80,7 +80,7 @@ To access `SharedAssets` you have to import it in the Package Manager (see [Impo
 
 ## Workflow
 1. Instantiate a sketch world prefab. Easy access to prefabs is provided through the DefaultReferences asset at `SharedAssets/Assets/DefaultReferences.asset`.
-2. Create sketch objects and groups from prefabs and add them to the sketch object world. Execute commands using a CommandInvoker object for undo and redo functionality. All scripts are in the VRSketchingGeometry namespace.
+2. Create sketch objects and groups from prefabs and add them to the sketch object world. Execute commands using a CommandInvoker object for undo and redo functionality. All scripts are in the UnitySketchingKernel namespace.
 4. Serialize or export using methods of the sketch world script.
 5. Load serialized sketch world from the serialized xml file for further editing.
 

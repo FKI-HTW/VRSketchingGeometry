@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry.Serialization;
+using CENTIS.UnitySketchingKernel.Serialization;
 
-namespace VRSketchingGeometry.Serialization {
+namespace CENTIS.UnitySketchingKernel.Serialization {
     /// <summary>
     /// Represents visual settings for a sketch object.
     /// </summary>
@@ -14,7 +14,7 @@ namespace VRSketchingGeometry.Serialization {
     }
 
     /// <summary>
-    /// Brush for <see cref="VRSketchingGeometry.SketchObjectManagement.LineSketchObject"/>.
+    /// Brush for <see cref="CENTIS.UnitySketchingKernel.SketchObjectManagement.LineSketchObject"/>.
     /// </summary>
     public class LineBrush : Brush {
         public float CrossSectionScale;
@@ -24,7 +24,7 @@ namespace VRSketchingGeometry.Serialization {
     }
 
     /// <summary>
-    /// Brush for <see cref="VRSketchingGeometry.SketchObjectManagement.RibbonSketchObject"/>.
+    /// Brush for <see cref="CENTIS.UnitySketchingKernel.SketchObjectManagement.RibbonSketchObject"/>.
     /// </summary>
     public class RibbonBrush : Brush {
         public Vector3 CrossSectionScale;

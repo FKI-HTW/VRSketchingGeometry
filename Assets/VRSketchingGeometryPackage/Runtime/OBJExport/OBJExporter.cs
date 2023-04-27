@@ -17,7 +17,7 @@ using System.Collections.Generic;
  |
  *===========================================================================*/
 
-namespace VRSketchingGeometry.Export
+namespace CENTIS.UnitySketchingKernel.Export
 {
     /// <summary>
     /// Export game objects as OBJ files at runtime.

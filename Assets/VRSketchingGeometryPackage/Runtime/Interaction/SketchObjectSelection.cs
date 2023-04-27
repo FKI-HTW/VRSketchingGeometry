@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
 
-namespace VRSketchingGeometry.SketchObjectManagement
+namespace CENTIS.UnitySketchingKernel.SketchObjectManagement
 {
     /// <summary>
     /// Represents a selection of SketchObjects and SketchObjectGroups.

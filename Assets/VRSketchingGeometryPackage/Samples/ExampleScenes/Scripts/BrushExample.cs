@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
-using VRSketchingGeometry;
-using VRSketchingGeometry.Commands;
-using VRSketchingGeometry.Commands.Line;
-using VRSketchingGeometry.Meshing;
-using VRSketchingGeometry.Serialization;
-using VRSketchingGeometry.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel;
+using CENTIS.UnitySketchingKernel.Commands;
+using CENTIS.UnitySketchingKernel.Commands.Line;
+using CENTIS.UnitySketchingKernel.Meshing;
+using CENTIS.UnitySketchingKernel.Serialization;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
 
-namespace VRSketchingGeometryPackage.Samples.ExampleScenes.Scripts
+namespace CENTIS.UnitySketchingKernelPackage.Samples.ExampleScenes.Scripts
 {
     public class BrushExample : MonoBehaviour
     {

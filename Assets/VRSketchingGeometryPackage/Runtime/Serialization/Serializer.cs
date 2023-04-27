@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace VRSketchingGeometry.Serialization
+namespace CENTIS.UnitySketchingKernel.Serialization
 {
     /// <summary>
     /// This class provides methods for serializing and deserializing objects to and from XML files.
@@ -15,7 +15,7 @@ namespace VRSketchingGeometry.Serialization
         /// 
         /// </summary>
         /// <remarks>The type t should only contain fields of types that can be automatically serialized by the
-        /// .NET XmlSerializer class. This is the case for the data classes in the <see cref="VRSketchingGeometry.Serialization"/> namespace.
+        /// .NET XmlSerializer class. This is the case for the data classes in the <see cref="CENTIS.UnitySketchingKernel.Serialization"/> namespace.
         /// </remarks>
         /// <typeparam name="T">Type of the object to be serialized.</typeparam>
         /// <param name="objectToSerialize"></param>

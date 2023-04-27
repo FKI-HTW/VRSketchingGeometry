@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace VRSketchingGeometry.Meshing
+namespace CENTIS.UnitySketchingKernel.Meshing
 {
     /// <summary>
     /// Generate a mesh with a certain cross section along given points and rotations.

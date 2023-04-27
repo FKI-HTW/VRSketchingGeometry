@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VRSketchingGeometry.Meshing
+namespace CENTIS.UnitySketchingKernel.Meshing
 {
     /// <summary>
     /// Methods for generating triangle index arrays for Mesh objects. 

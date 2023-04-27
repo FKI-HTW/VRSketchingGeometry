@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry.Splines;
-using VRSketchingGeometry.Meshing;
-using VRSketchingGeometry.Serialization;
+using CENTIS.UnitySketchingKernel.Splines;
+using CENTIS.UnitySketchingKernel.Meshing;
+using CENTIS.UnitySketchingKernel.Serialization;
 
-namespace VRSketchingGeometry.SketchObjectManagement
+namespace CENTIS.UnitySketchingKernel.SketchObjectManagement
 {
     /// <summary>
     /// A line sketch object with no smooth interpolation between control point.

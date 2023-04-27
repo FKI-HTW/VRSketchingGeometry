@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
 
-namespace VRSketchingGeometry.Commands.Ribbon {
+namespace CENTIS.UnitySketchingKernel.Commands.Ribbon {
     /// <summary>
     /// Add a new control point to the end of the ribbon.
     /// </summary>

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using VRSketchingGeometry.Serialization;
+using CENTIS.UnitySketchingKernel.Serialization;
 
-namespace VRSketchingGeometry.SketchObjectManagement
+namespace CENTIS.UnitySketchingKernel.SketchObjectManagement
 {
     /// <summary>
     /// Classes that implement this interface can work with Brush objects.

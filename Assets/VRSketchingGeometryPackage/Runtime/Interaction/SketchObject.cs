@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace VRSketchingGeometry.SketchObjectManagement {
+namespace CENTIS.UnitySketchingKernel.SketchObjectManagement {
     /// <summary>
     /// Base class for different kinds of SketchObjects.
     /// </summary>
     /// <remarks>Original author: tterpi</remarks>
     public abstract class SketchObject : SelectableObject
     {
-        public VRSketchingGeometry.DefaultReferences Defaults;
+        public CENTIS.UnitySketchingKernel.DefaultReferences Defaults;
 
         private SketchObjectGroup parentGroup;
 

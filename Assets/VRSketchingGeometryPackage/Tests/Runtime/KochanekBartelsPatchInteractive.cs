@@ -1,4 +1,4 @@
-﻿using VRSketchingGeometry.Meshing;
+﻿using CENTIS.UnitySketchingKernel.Meshing;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

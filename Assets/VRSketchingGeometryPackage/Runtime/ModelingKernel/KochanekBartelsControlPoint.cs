@@ -8,7 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace VRSketchingGeometry.Splines {
+namespace CENTIS.UnitySketchingKernel.Splines {
     /// <summary>
     /// A control point for the Kochanek Bartels spline class.
     /// Contains the position of the control point and the parameters tension, bias and continuity

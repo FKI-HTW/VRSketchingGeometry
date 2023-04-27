@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace VRSketchingGeometry.Commands{
+namespace CENTIS.UnitySketchingKernel.Commands{
     /// <summary>
     /// This class manages all commands that have been executed. It offers methods to undo and redo commands.
     /// </summary>

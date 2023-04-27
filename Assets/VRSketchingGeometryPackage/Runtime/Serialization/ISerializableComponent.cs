@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using VRSketchingGeometry.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
 
-namespace VRSketchingGeometry.Serialization
+namespace CENTIS.UnitySketchingKernel.Serialization
 {
     /// <summary>
     /// Interface that marks Unity components that can be serialized 
-    /// using <see cref="VRSketchingGeometry.Serialization.SerializableComponentData"/> objects.
+    /// using <see cref="CENTIS.UnitySketchingKernel.Serialization.SerializableComponentData"/> objects.
     /// </summary>
     /// <remarks>Original author: tterpi</remarks>
     internal interface ISerializableComponent: IGroupable

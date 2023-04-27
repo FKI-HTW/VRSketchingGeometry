@@ -1,12 +1,12 @@
 ﻿using System;
 using UnityEngine;
-using VRSketchingGeometry;
-using VRSketchingGeometry.Commands;
-using VRSketchingGeometry.Commands.Line;
-using VRSketchingGeometry.SketchObjectManagement;
-using VRSketchingGeometry.Commands.Group;
+using CENTIS.UnitySketchingKernel;
+using CENTIS.UnitySketchingKernel.Commands;
+using CENTIS.UnitySketchingKernel.Commands.Line;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.Commands.Group;
 
-namespace VRSketchingGeometryPackage.Samples.ExampleScenes.Scripts
+namespace CENTIS.UnitySketchingKernelPackage.Samples.ExampleScenes.Scripts
 {
     public class LineExample : MonoBehaviour
     {

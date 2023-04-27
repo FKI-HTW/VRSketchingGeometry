@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
 
-namespace VRSketchingGeometry.Commands.Line
+namespace CENTIS.UnitySketchingKernel.Commands.Line
 {
     /// <summary>
     /// Delete control point at the end of spline.

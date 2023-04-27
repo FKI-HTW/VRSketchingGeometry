@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 
-namespace VRSketchingGeometry.Serialization
+namespace CENTIS.UnitySketchingKernel.Serialization
 {
     /// <summary>
-    /// Base class for the data of components that implement <see cref="VRSketchingGeometry.Serialization.ISerializableComponent"/>.
+    /// Base class for the data of components that implement <see cref="CENTIS.UnitySketchingKernel.Serialization.ISerializableComponent"/>.
     /// </summary>
     /// <remarks>Original author: tterpi</remarks>
     public abstract class SerializableComponentData

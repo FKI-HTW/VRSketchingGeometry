@@ -8,7 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace VRSketchingGeometry.Meshing {
+namespace CENTIS.UnitySketchingKernel.Meshing {
     /// <summary>
     /// Generates a tube like mesh according to a set of points on a line
     /// </summary>

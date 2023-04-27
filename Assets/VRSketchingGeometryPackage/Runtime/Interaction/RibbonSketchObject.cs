@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using VRSketchingGeometry.Meshing;
-using VRSketchingGeometry.Serialization;
+using CENTIS.UnitySketchingKernel.Meshing;
+using CENTIS.UnitySketchingKernel.Serialization;
 
-namespace VRSketchingGeometry.SketchObjectManagement{
+namespace CENTIS.UnitySketchingKernel.SketchObjectManagement{
     /// <summary>
     /// Ribbon sketch object. Creates a flat ribbon shaped geometry along control points and rotations.
     /// </summary>

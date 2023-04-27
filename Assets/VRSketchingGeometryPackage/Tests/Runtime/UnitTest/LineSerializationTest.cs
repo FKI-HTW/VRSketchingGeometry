@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
-using VRSketchingGeometry.SketchObjectManagement;
-using VRSketchingGeometry.Serialization;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.Serialization;
 using UnityEngine.SceneManagement;
 using UnityEngine.TestTools.Utils;
 
-namespace VRSketchingGeometryPackage.Tests.Runtime.UnitTest
+namespace CENTIS.UnitySketchingKernelPackage.Tests.Runtime.UnitTest
 {
     public class LineSerializationTest
     {

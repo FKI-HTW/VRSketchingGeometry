@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace VRSketchingGeometry.Meshing
+namespace CENTIS.UnitySketchingKernel.Meshing
 {
     /// <summary>
     /// Represents a cross section for a ITubeMesh implementation.

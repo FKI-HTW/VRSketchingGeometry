@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace VRSketchingGeometry.Commands {
+namespace CENTIS.UnitySketchingKernel.Commands {
     /// <summary>
     /// A command according to the command pattern.
     /// It supports undo and redo.

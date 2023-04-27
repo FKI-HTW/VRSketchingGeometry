@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry;
-using VRSketchingGeometry.SketchObjectManagement;
-using VRSketchingGeometry.Serialization;
-using VRSketchingGeometry.Meshing;
+using CENTIS.UnitySketchingKernel;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.Serialization;
+using CENTIS.UnitySketchingKernel.Meshing;
 
 public class LineSketchObjectTest : MonoBehaviour
 {

@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
-using VRSketchingGeometry.Serialization;
-using VRSketchingGeometry.Commands;
-using VRSketchingGeometry.Commands.Group;
-using VRSketchingGeometry.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.Serialization;
+using CENTIS.UnitySketchingKernel.Commands;
+using CENTIS.UnitySketchingKernel.Commands.Group;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
 using UnityEngine.SceneManagement;
 using UnityEngine.TestTools.Utils;
 
-namespace VRSketchingGeometryPackage.Tests.Runtime.UnitTest
+namespace CENTIS.UnitySketchingKernelPackage.Tests.Runtime.UnitTest
 {
     public class GroupSerializationTest
     {

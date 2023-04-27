@@ -4,11 +4,11 @@ using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.TestTools;
-using VRSketchingGeometry;
-using VRSketchingGeometry.Commands;
-using VRSketchingGeometry.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel;
+using CENTIS.UnitySketchingKernel.Commands;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
 
-namespace VRSketchingGeometryPackage.Tests.Runtime.UnitTest
+namespace CENTIS.UnitySketchingKernelPackage.Tests.Runtime.UnitTest
 {
     public class SketchWorldCommandTest
     {

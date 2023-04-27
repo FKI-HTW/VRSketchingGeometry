@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Xml.Serialization;
 
-namespace VRSketchingGeometry.Serialization {
+namespace CENTIS.UnitySketchingKernel.Serialization {
     public class BrushCollection
     {
         [XmlElement(typeof(Brush)), XmlElement(typeof(RibbonBrush)), XmlElement(typeof(LineBrush))]

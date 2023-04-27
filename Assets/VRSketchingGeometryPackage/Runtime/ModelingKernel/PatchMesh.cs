@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry.Splines;
+using CENTIS.UnitySketchingKernel.Splines;
 using System.Threading;
 using System.Threading.Tasks;
 
 
-namespace VRSketchingGeometry.Meshing
+namespace CENTIS.UnitySketchingKernel.Meshing
 {
     /// <summary>
     /// Smoothly interpolated patch surface mesh controlled by a 2D grid of control points.

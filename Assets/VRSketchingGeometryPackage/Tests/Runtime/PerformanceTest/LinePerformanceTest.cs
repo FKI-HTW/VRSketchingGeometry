@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
-using VRSketchingGeometry.SketchObjectManagement;
-using VRSketchingGeometry.Meshing;
-using VRSketchingGeometry.Splines;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.Meshing;
+using CENTIS.UnitySketchingKernel.Splines;
 using UnityEngine.SceneManagement;
 using Unity.PerformanceTesting;
 
-namespace VRSketchingGeometryPackage.Tests.Runtime.PerformanceTest
+namespace CENTIS.UnitySketchingKernelPackage.Tests.Runtime.PerformanceTest
 {
     public class LinePerformanceTest
     {

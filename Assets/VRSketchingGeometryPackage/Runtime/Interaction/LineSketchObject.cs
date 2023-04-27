@@ -7,12 +7,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry.Splines;
-using VRSketchingGeometry.Meshing;
-using VRSketchingGeometry.Serialization;
+using CENTIS.UnitySketchingKernel.Splines;
+using CENTIS.UnitySketchingKernel.Meshing;
+using CENTIS.UnitySketchingKernel.Serialization;
 using System.Linq;
 
-namespace VRSketchingGeometry.SketchObjectManagement
+namespace CENTIS.UnitySketchingKernel.SketchObjectManagement
 {
     /// <summary>
     /// Provides methods to interact with a line game object in the scene.

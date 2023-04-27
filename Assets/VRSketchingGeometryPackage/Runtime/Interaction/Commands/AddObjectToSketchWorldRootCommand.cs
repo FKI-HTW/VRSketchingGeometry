@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
 
-namespace VRSketchingGeometry.Commands
+namespace CENTIS.UnitySketchingKernel.Commands
 {
     /// <summary>
     /// Add a new object to the sketch world root. The sketch object is deleted when undoing this command. 

@@ -5,12 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using System.Xml.Serialization;
-using VRSketchingGeometry.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
 
-namespace VRSketchingGeometry.Serialization
+namespace CENTIS.UnitySketchingKernel.Serialization
 {
     /// <summary>
-    /// Data class for <see cref="VRSketchingGeometry.SketchObjectManagement.SketchObjectGroup"/>.
+    /// Data class for <see cref="CENTIS.UnitySketchingKernel.SketchObjectManagement.SketchObjectGroup"/>.
     /// </summary>
     /// <remarks>Original author: tterpi</remarks>
     public class SketchObjectGroupData : SerializableComponentData

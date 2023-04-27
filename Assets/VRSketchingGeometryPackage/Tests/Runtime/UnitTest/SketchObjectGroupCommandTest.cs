@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
-using VRSketchingGeometry.Commands;
-using VRSketchingGeometry.Commands.Group;
-using VRSketchingGeometry.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.Commands;
+using CENTIS.UnitySketchingKernel.Commands.Group;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
 using UnityEngine.SceneManagement;
 
-namespace VRSketchingGeometryPackage.Tests.Runtime.UnitTest
+namespace CENTIS.UnitySketchingKernelPackage.Tests.Runtime.UnitTest
 {
     public class SketchObjectGroupCommandTest
     {

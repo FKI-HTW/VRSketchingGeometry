@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
-using VRSketchingGeometry.SketchObjectManagement;
-using VRSketchingGeometry.Commands;
-using VRSketchingGeometry.Commands.Ribbon;
-using VRSketchingGeometry.Serialization;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.Commands;
+using CENTIS.UnitySketchingKernel.Commands.Ribbon;
+using CENTIS.UnitySketchingKernel.Serialization;
 using UnityEngine.SceneManagement;
 using UnityEngine.TestTools.Utils;
 
-namespace VRSketchingGeometryPackage.Tests.Runtime.UnitTest
+namespace CENTIS.UnitySketchingKernelPackage.Tests.Runtime.UnitTest
 {
     public class RibbonSerializationTest
     {

@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
-using VRSketchingGeometry.SketchObjectManagement;
-using VRSketchingGeometry.Commands;
-using VRSketchingGeometry.Commands.Patch;
-using VRSketchingGeometry.Serialization;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.Commands;
+using CENTIS.UnitySketchingKernel.Commands.Patch;
+using CENTIS.UnitySketchingKernel.Serialization;
 using UnityEngine.SceneManagement;
 
-namespace VRSketchingGeometryPackage.Tests.Runtime.UnitTest
+namespace CENTIS.UnitySketchingKernelPackage.Tests.Runtime.UnitTest
 {
     public class PatchSerializationTest
     {

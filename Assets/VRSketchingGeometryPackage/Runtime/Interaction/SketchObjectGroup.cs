@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry.Serialization;
+using CENTIS.UnitySketchingKernel.Serialization;
 
-namespace VRSketchingGeometry.SketchObjectManagement {
+namespace CENTIS.UnitySketchingKernel.SketchObjectManagement {
     /// <summary>
     /// Represents a group of objects that implement IGroupable.
     /// SketchObjectGroups can contain SketchObjects and other SketchObjectGroups.

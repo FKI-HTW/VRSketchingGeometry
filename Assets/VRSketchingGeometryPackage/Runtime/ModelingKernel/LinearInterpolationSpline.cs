@@ -1,6 +1,6 @@
 ﻿//-----------------------------------------------------------------------
 //
-// Original repository: https://github.com/tterpi/VRSketchingGeometry
+// Original repository: https://github.com/tterpi/CENTIS.UnitySketchingKernel
 //
 //-----------------------------------------------------------------------
 
@@ -8,7 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace VRSketchingGeometry.Splines {
+namespace CENTIS.UnitySketchingKernel.Splines {
     /// <summary>
     /// Spline that directly represents the provided control points, does not perform any interpolation.
     /// </summary>

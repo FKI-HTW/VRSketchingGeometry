@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry.SketchObjectManagement;
-using VRSketchingGeometry.Serialization;
+using CENTIS.UnitySketchingKernel.SketchObjectManagement;
+using CENTIS.UnitySketchingKernel.Serialization;
 
-namespace VRSketchingGeometry.Commands {
+namespace CENTIS.UnitySketchingKernel.Commands {
     /// <summary>
     /// Set the brush of the sketch object.
     /// </summary>

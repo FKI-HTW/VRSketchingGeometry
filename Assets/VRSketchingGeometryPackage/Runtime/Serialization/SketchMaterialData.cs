@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace VRSketchingGeometry.Serialization
+namespace CENTIS.UnitySketchingKernel.Serialization
 {
     /// <summary>
     /// Data class for the properties of a material.

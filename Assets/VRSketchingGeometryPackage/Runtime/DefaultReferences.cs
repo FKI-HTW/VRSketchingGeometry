@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRSketchingGeometry.Serialization;
+using CENTIS.UnitySketchingKernel.Serialization;
 
-namespace VRSketchingGeometry
+namespace CENTIS.UnitySketchingKernel
 {
     /// <summary>
     /// This scriptable object contains references to frequently used prefabs, materials etc.
