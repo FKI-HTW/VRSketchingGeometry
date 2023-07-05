@@ -1,9 +1,9 @@
 {
-  "name": "de.htw-berlin.fki.vr-sketching-geometry",
-  "version": "0.1.1",
+  "name": "de.htw-berlin.centis.vr-sketching-geometry",
+  "version": "0.1.2",
   "displayName": "VR Sketching Geometry",
   "description": "Lightweight VR Sketching Tool",
-  "unity": "2019.4",
+  "unity": "2021.3",
   "documentationUrl": "hunsri.github.io/VRSketchingGeometryUP/Assets/VRSketchingGeometryPackage/README.html",
   "changelogUrl": "hunsri.github.io/VRSketchingGeometryUP/Assets/VRSketchingGeometryPackage/CHANGELOG.html",
   "keywords": [

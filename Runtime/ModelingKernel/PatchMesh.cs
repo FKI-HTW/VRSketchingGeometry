@@ -37,7 +37,7 @@ namespace VRSketchingGeometry.Meshing
         /// <param name="resolutionWidth"></param>
         /// <param name="resolutionHeight"></param>
         /// <returns></returns>
-        internal static Vector3[] GenerateVerticesOfPatch_Optimized(List<Vector3> controlPoints, int width, int height, int resolutionWidth, int resolutionHeight)
+        public static Vector3[] GenerateVerticesOfPatch_Optimized(List<Vector3> controlPoints, int width, int height, int resolutionWidth, int resolutionHeight)
         {
             //create horizontal splines through the control points
             List<List<Vector3>> horizontalPoints = new List<List<Vector3>>();
@@ -76,7 +76,7 @@ namespace VRSketchingGeometry.Meshing
         /// <param name="resolutionWidth"></param>
         /// <param name="resolutionHeight"></param>
         /// <returns></returns>
-        internal static Vector3[] GenerateVerticesOfPatch_Parallel(List<Vector3> controlPoints, int width, int height, int resolutionWidth, int resolutionHeight)
+        public static Vector3[] GenerateVerticesOfPatch_Parallel(List<Vector3> controlPoints, int width, int height, int resolutionWidth, int resolutionHeight)
         {
             //create horizontal splines through the control points
             List<Vector3>[] horizontalPoints = new List<Vector3>[height];
@@ -121,7 +121,7 @@ namespace VRSketchingGeometry.Meshing
         /// <param name="resolutionWidth"></param>
         /// <param name="resolutionHeight"></param>
         /// <returns></returns>
-        internal static Vector3[] GenerateVerticesOfPatch_Original(List<Vector3> controlPoints, int width, int height, int resolutionWidth, int resolutionHeight)
+        public static Vector3[] GenerateVerticesOfPatch_Original(List<Vector3> controlPoints, int width, int height, int resolutionWidth, int resolutionHeight)
         {
 
             //create horizontal splines through the control points
