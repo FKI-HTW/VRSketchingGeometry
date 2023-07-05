@@ -60,7 +60,7 @@ namespace VRSketchingGeometry.SketchObjectManagement
         /// Adds a control point to the end of the spline.
         /// </summary>
         /// <param name="point"></param>
-        internal void AddControlPoint(Vector3 point)
+        public void AddControlPoint(Vector3 point)
         {
             //Transform the new control point from world to local space of sketch object
             Vector3 transformedPoint = transform.InverseTransformPoint(point);
@@ -75,7 +75,7 @@ namespace VRSketchingGeometry.SketchObjectManagement
         /// </summary>
         /// <param name="point"></param>
         /// <returns>True if the control point was added.</returns>
-        internal bool AddControlPointContinuous(Vector3 point)
+        public bool AddControlPointContinuous(Vector3 point)
         {
             //Check that new control point is far enough away from previous control point
             if (
@@ -165,7 +165,7 @@ namespace VRSketchingGeometry.SketchObjectManagement
         /// <summary>
         /// Deletes the last control point of the spline.
         /// </summary>
-        internal void DeleteControlPoint()
+        public void DeleteControlPoint()
         {
             //delete the last control point of the spline
             Mesh newMesh = SplineMesh.DeleteControlPoint(SplineMesh.GetNumberOfControlPoints() - 1);
@@ -179,7 +179,7 @@ namespace VRSketchingGeometry.SketchObjectManagement
         /// <param name="radius">Radius in world space.</param>
         /// <param name="newLineSketchObjects">List of new line sketch objects that were created for the deletion.</param>
         /// <returns>Returns true if at least one control point was deleted, false otherwise.</returns>
-        internal bool DeleteControlPoints(Vector3 point, float radius, out List<LineSketchObject> newLineSketchObjects) {
+        public bool DeleteControlPoints(Vector3 point, float radius, out List<LineSketchObject> newLineSketchObjects) {
             List<List<Vector3>> contiguousSections = new List<List<Vector3>>();
             List<Vector3> contiguousSection = new List<Vector3>();
 
@@ -311,7 +311,7 @@ namespace VRSketchingGeometry.SketchObjectManagement
         /// <summary>
         /// Refine the mesh using Parallel Transport algorithm.
         /// </summary>
-        internal virtual void RefineMesh() {
+        public virtual void RefineMesh() {
             Mesh newMesh = this.SplineMesh.RefineMesh();
             ChooseDisplayMethod(newMesh);
         }

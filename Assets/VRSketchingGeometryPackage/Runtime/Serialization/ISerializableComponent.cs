@@ -12,7 +12,7 @@ namespace VRSketchingGeometry.Serialization
     /// using <see cref="VRSketchingGeometry.Serialization.SerializableComponentData"/> objects.
     /// </summary>
     /// <remarks>Original author: tterpi</remarks>
-    internal interface ISerializableComponent: IGroupable
+    public interface ISerializableComponent: IGroupable
     {
         SerializableComponentData GetData();
         void ApplyData(SerializableComponentData data);

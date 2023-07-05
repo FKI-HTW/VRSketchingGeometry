@@ -18,7 +18,7 @@ namespace VRSketchingGeometry.Serialization
         public Vector3 CrossSectionScale = Vector3.one;
         public SketchMaterialData SketchMaterial;
 
-        internal override ISerializableComponent InstantiateComponent(DefaultReferences defaults)
+        public override ISerializableComponent InstantiateComponent(DefaultReferences defaults)
         {
             return GameObject.Instantiate(defaults.RibbonSketchObjectPrefab).GetComponent<ISerializableComponent>();
         }

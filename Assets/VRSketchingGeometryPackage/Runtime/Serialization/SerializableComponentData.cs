@@ -17,7 +17,7 @@ namespace VRSketchingGeometry.Serialization
         /// </summary>
         /// <param name="defaults">References to the prefabs.</param>
         /// <returns></returns>
-        internal ISerializableComponent Deserialize(DefaultReferences defaults) {
+        public ISerializableComponent Deserialize(DefaultReferences defaults) {
             ISerializableComponent serializableComponent = InstantiateComponent(defaults);
             serializableComponent.ApplyData(this);
             return serializableComponent;
@@ -28,7 +28,7 @@ namespace VRSketchingGeometry.Serialization
         /// </summary>
         /// <param name="defaults">References to the prefabs.</param>
         /// <returns></returns>
-        internal abstract ISerializableComponent InstantiateComponent(DefaultReferences defaults);
+        public abstract ISerializableComponent InstantiateComponent(DefaultReferences defaults);
 
         /// <summary>
         /// Applies the transform data in the data object to a transform object of a game object.

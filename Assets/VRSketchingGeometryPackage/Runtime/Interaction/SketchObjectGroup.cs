@@ -23,7 +23,7 @@ namespace VRSketchingGeometry.SketchObjectManagement {
         /// Add a groupable object to the group.
         /// </summary>
         /// <param name="groupableComponent"></param>
-        internal void AddToGroup(IGroupable groupableComponent) {
+        public void AddToGroup(IGroupable groupableComponent) {
             groupableComponent.ParentGroup = this;
             groupableComponent.resetToParentGroup();
         }
@@ -45,7 +45,7 @@ namespace VRSketchingGeometry.SketchObjectManagement {
         /// Otherwise it is put on the root level of the scene.
         /// </summary>
         /// <param name="groupedObject"></param>
-        internal static void RemoveFromGroup(IGroupable groupedObject) {
+        public static void RemoveFromGroup(IGroupable groupedObject) {
             if (SketchWorld.ActiveSketchWorld != null && groupedObject != null)
             {
                 if (groupedObject is SelectableObject selectableObject) {

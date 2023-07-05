@@ -29,7 +29,7 @@ namespace VRSketchingGeometry.Meshing
         /// <param name="rotations">Orientation of the cross sections.</param>
         /// <param name="width">Width of the ribbon.</param>
         /// <returns></returns>
-        internal static Mesh GetRibbonMesh(List<Vector3> points, List<Quaternion> rotations, float width) {
+        public static Mesh GetRibbonMesh(List<Vector3> points, List<Quaternion> rotations, float width) {
 
             List<Vector3> ribbonCrossSection = new List<Vector3> { new Vector3(0, 0, .5f), new Vector3(0, 0, 0), new Vector3(0, 0, -.5f) };
             return GetMesh(ribbonCrossSection, points, rotations, Vector3.one * width);

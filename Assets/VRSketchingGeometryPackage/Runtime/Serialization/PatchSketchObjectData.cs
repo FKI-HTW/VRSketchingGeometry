@@ -19,7 +19,7 @@ namespace VRSketchingGeometry.Serialization
         public List<Vector3> ControlPoints;
         public SketchMaterialData SketchMaterial;
 
-        internal override ISerializableComponent InstantiateComponent(DefaultReferences defaults)
+        public override ISerializableComponent InstantiateComponent(DefaultReferences defaults)
         {
             return GameObject.Instantiate(defaults.PatchSketchObjectPrefab).GetComponent<ISerializableComponent>();
         }

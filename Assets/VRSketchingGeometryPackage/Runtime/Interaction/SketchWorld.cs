@@ -45,7 +45,7 @@ namespace VRSketchingGeometry.SketchObjectManagement
         /// Disables the game object and places it under the deleted bin.
         /// </summary>
         /// <param name="selectableObject"></param>
-        internal void DeleteObject(SelectableObject selectableObject)
+        public void DeleteObject(SelectableObject selectableObject)
         {
             selectableObject.gameObject.SetActive(false);
             selectableObject.transform.SetParent(deletedBin.transform);
@@ -65,7 +65,7 @@ namespace VRSketchingGeometry.SketchObjectManagement
         /// 
         /// </summary>
         /// <param name="gameObject"></param>
-        internal void AddObject(SelectableObject selectableObject)
+        public void AddObject(SelectableObject selectableObject)
         {
             RootGroup.AddToGroup(selectableObject);
         }

@@ -26,7 +26,7 @@ namespace VRSketchingGeometry.Serialization
         public float CrossSectionScale = 1.0f;
         public SketchMaterialData SketchMaterial;
 
-        internal override ISerializableComponent InstantiateComponent(DefaultReferences defaults)
+        public override ISerializableComponent InstantiateComponent(DefaultReferences defaults)
         {
             ISerializableComponent serializableComponent = null;
             if (Interpolation == InterpolationType.Cubic)

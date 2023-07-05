@@ -65,7 +65,7 @@ namespace VRSketchingGeometry.SketchObjectManagement{
         /// </summary>
         /// <param name="point"></param>
         /// <param name="rotation"></param>
-        internal void AddControlPoint(Vector3 point, Quaternion rotation) {
+        public void AddControlPoint(Vector3 point, Quaternion rotation) {
             Vector3 transformedPoint = this.transform.InverseTransformPoint(point);
             Quaternion transformedRotation = Quaternion.Inverse(this.transform.rotation) * rotation;
             Points.Add(transformedPoint);
@@ -79,7 +79,7 @@ namespace VRSketchingGeometry.SketchObjectManagement{
         /// The distance is controlled by minimumControlPointDistance.
         /// </summary>
         /// <param name="point"></param>
-        internal bool AddControlPointContinuous(Vector3 point, Quaternion rotation)
+        public bool AddControlPointContinuous(Vector3 point, Quaternion rotation)
         {
             //Check that new control point is far enough away from previous control point
             if (
@@ -111,7 +111,7 @@ namespace VRSketchingGeometry.SketchObjectManagement{
         /// <summary>
         /// Delete the last control point.
         /// </summary>
-        internal void DeleteControlPoint() {
+        public void DeleteControlPoint() {
             Points.RemoveAt(Points.Count - 1);
             Rotations.RemoveAt(Rotations.Count - 1);
             if (Points.Count < 0) return;

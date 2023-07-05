@@ -85,7 +85,7 @@ namespace VRSketchingGeometry.SketchObjectManagement
         /// Control points are expected to be in world space.
         /// </summary>
         /// <param name="newControlPoints"></param>
-        internal void AddPatchSegment(List<Vector3> newControlPoints) {
+        public void AddPatchSegment(List<Vector3> newControlPoints) {
             if (newControlPoints.Count != Width)
             {
                 Debug.LogWarning("Segment has to have width number of control points.");
@@ -102,7 +102,7 @@ namespace VRSketchingGeometry.SketchObjectManagement
         /// </summary>
         /// <param name="newControlPoints"></param>
         /// <returns></returns>
-        internal bool AddPatchSegmentContinuous(List<Vector3> newControlPoints) {
+        public bool AddPatchSegmentContinuous(List<Vector3> newControlPoints) {
             if (newControlPoints.Count != Width) return false;
 
             bool distanceExceeded = true;
@@ -133,7 +133,7 @@ namespace VRSketchingGeometry.SketchObjectManagement
         /// <summary>
         /// Remove a segement at the end of the patch.
         /// </summary>
-        internal void RemovePatchSegment() {
+        public void RemovePatchSegment() {
             ControlPoints.RemoveRange(ControlPoints.Count - Width, Width);
             Height--;
             UpdatePatchMesh();
