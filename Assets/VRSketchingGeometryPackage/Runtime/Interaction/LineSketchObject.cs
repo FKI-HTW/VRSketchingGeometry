@@ -46,13 +46,19 @@ namespace VRSketchingGeometry.SketchObjectManagement
         public float minimumControlPointDistance = 1f;
 
         protected float lineDiameter = .2f;
-        private int InterpolationSteps = 20;
+        private int interpolationSteps = 20;
+        private  MeshRenderer _renderer;
 
+        public Color LineColor => _renderer.material.color;
+        public int InterpolationSteps => interpolationSteps;
+        public float LineDiameter => lineDiameter;
+        
         protected override void Awake()
         {
-            SplineMesh = this.MakeSplineMesh(InterpolationSteps, Vector3.one * lineDiameter);
+            SplineMesh = this.MakeSplineMesh(interpolationSteps, Vector3.one * lineDiameter);
             LinearSplineMesh = new SplineMesh(new LinearInterpolationSpline(), Vector3.one * lineDiameter);
-
+            _renderer = GetComponent<MeshRenderer>();
+            
             setUpOriginalMaterialAndMeshRenderer();
         }
 
@@ -151,7 +157,7 @@ namespace VRSketchingGeometry.SketchObjectManagement
         /// </summary>
         /// <param name="steps"></param>
         public virtual void SetInterpolationSteps(int steps) {
-            this.InterpolationSteps = steps;
+            this.interpolationSteps = steps;
             List<Vector3> controlPoints = this.GetControlPoints();
             this.SplineMesh.GetCrossSectionShape(out List<Vector3> CurrentCrossSectionShape, out List<Vector3> CurrentCrossSectionNormals);
             //SplineMesh = new SplineMesh(new KochanekBartelsSpline(steps), this.lineDiameter * Vector3.one);
@@ -221,7 +227,7 @@ namespace VRSketchingGeometry.SketchObjectManagement
                     LineSketchObject newLine = Instantiate(this, this.transform.parent);
                     this.SplineMesh.GetCrossSectionShape(out List<Vector3> crossSectionVertices, out List<Vector3> crossSectionNormals);
                     newLine.SetLineCrossSection(crossSectionVertices, crossSectionNormals, this.lineDiameter);
-                    newLine.SetInterpolationSteps(this.InterpolationSteps);
+                    newLine.SetInterpolationSteps(this.interpolationSteps);
                     newLine.SetControlPointsLocalSpace(section);
 
                     newLineSketchObjects.Add(newLine);
@@ -337,7 +343,7 @@ namespace VRSketchingGeometry.SketchObjectManagement
             LineBrush brush = new LineBrush();
             brush.SketchMaterial = new SketchMaterialData(meshRenderer.sharedMaterial);
             brush.CrossSectionScale = this.lineDiameter;
-            brush.InterpolationSteps = this.InterpolationSteps;
+            brush.InterpolationSteps = this.interpolationSteps;
             SplineMesh.GetCrossSectionShape(out brush.CrossSectionVertices, out brush.CrossSectionNormals);
             return brush;
         }
@@ -357,7 +363,7 @@ namespace VRSketchingGeometry.SketchObjectManagement
                 Interpolation = LineSketchObjectData.InterpolationType.Cubic,
                 ControlPoints = GetControlPoints(),
                 CrossSectionScale = this.lineDiameter,
-                InterpolationSteps = this.InterpolationSteps
+                InterpolationSteps = this.interpolationSteps
             };
 
             data.SetDataFromTransform(this.transform);
