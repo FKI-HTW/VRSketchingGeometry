@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/VRSketchingGeometryPackage/Tests/Scenes/CommandTestScene.unity
+    path: Assets/VRSketchingGeometry/Tests/Scenes/CommandTestScene.unity
     guid: 98d92473b9b449549852f2e42e5c911b
   m_configObjects: {}
