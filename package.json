@@ -1,0 +1,42 @@
+{
+	"name": "de.htw-berlin.centis.vr-sketching-geometry",
+	"version": "0.3.0",
+	"displayName": "VR Sketching Geometry",
+	"description": "Lightweight VR Sketching Tool",
+	"unity": "2022.3",
+	"documentationUrl": "https://github.com/FKI-HTW/VRSketchingGeometry/blob/main/Assets/VRSketchingGeometry/README.md",
+	"changelogUrl": "https://github.com/FKI-HTW/VRSketchingGeometry/blob/main/Assets/VRSketchingGeometry/CHANGELOG.md",
+	"licensesUrl": "https://github.com/FKI-HTW/VRSketchingGeometry/blob/main/Assets/VRSketchingGeometry/LICENSE.md",
+	"keywords": [
+		"Unity Package",
+		"VR",
+		"Sketching"
+	],
+	"samples": [
+		{
+			"displayName": "Shared Assets",
+			"description": "Contains assets that are shared between samples. Can be used as reference for own assets.",
+			"path": "Samples~/SharedAssets"
+		},
+		{
+			"displayName": "Example Scenes",
+			"description": "Contains scenes with scripts and explanations.",
+			"path": "Samples~/ExampleScenes"
+		},
+		{
+			"displayName": "Legacy Example",
+			"description": "The old example. Contains a static scene with various generated structures.",
+			"path": "Samples~/LegacyExample"
+		}
+	],
+	"dependencies": {
+		"com.unity.test-framework": "1.1.22",
+		"com.unity.test-framework.performance": "2.8.1-preview"
+	},
+	"testables": ["com.unity.test-framework.performance"],
+	"author": {
+		"name": "CENTIS HTW-Berlin",
+		"email": "centis-htw-bounces@lists.htw-berlin.de",
+		"url": "https://fki.htw-berlin.de/centis/"
+	}
+}
